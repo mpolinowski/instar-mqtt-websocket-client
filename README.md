@@ -9,12 +9,12 @@ Use [the MQTTv5 API](https://wiki.instar.com/en/Advanced_User/INSTAR_MQTT_Broker
 
 ## How to use it
 
-Put this repository into your web server's web root and open the `index.html` file inside your web browser - that's it.
+Put this repository into your web server's web root and open the [index.html](https://github.com/mpolinowski/instar-mqtt-websocket-client/blob/master/index.html) file inside your web browser - that's it.
 
 
 ## Configuration
 
-To make using this client more convenient you can pre-configure the client with the `./config.js` file. Here you can add your broker configuration, e.g.:
+To make using this client more convenient you can pre-configure the client with the [./config.js](https://github.com/mpolinowski/instar-mqtt-websocket-client/blob/master/config.js) file. Here you can add your broker configuration, e.g.:
 
 
 ```js
@@ -37,10 +37,10 @@ mqtt_pub_payload = '{"val":"1"}' // default MQTT publish topic message payload f
 The broker configuration here as the MQTT prefix and camera ID has to match your camera's MQTT configuration:
 
 
-![Websocket-based MQTT Client INSTAR MQTT Camera](./img/INSTAR_MQTTv5_Websocket_Client_01.webp)
+![Websocket-based MQTT Client INSTAR MQTT Camera](https://github.com/mpolinowski/instar-mqtt-websocket-client/raw/master/img/INSTAR_MQTTv5_Websocket_Client_01.webp)
 
 
-![Websocket-based MQTT Client INSTAR MQTT Camera](./img/INSTAR_MQTTv5_Websocket_Client_02.webp)
+![Websocket-based MQTT Client INSTAR MQTT Camera](https://github.com/mpolinowski/instar-mqtt-websocket-client/raw/master/img/INSTAR_MQTTv5_Websocket_Client_02.webp)
 
 
 
@@ -49,25 +49,25 @@ The broker configuration here as the MQTT prefix and camera ID has to match your
 The web client should now be pre-configured and ready to use. Click on `Verbinden` to connect to your camera broker:
 
 
-![Websocket-based MQTT Client INSTAR MQTT Camera](./img/INSTAR_MQTTv5_Websocket_Client_03.webp)
+![Websocket-based MQTT Client INSTAR MQTT Camera](https://github.com/mpolinowski/instar-mqtt-websocket-client/raw/master/img/INSTAR_MQTTv5_Websocket_Client_03.webp)
 
 
-The configuration file `./config.js` already sets up a couple of buttons that you can try to see if you are able to reach and control your camera. Click to activate an privacy area and see it show up in your camera's live video:
+The configuration file [./config.js](https://github.com/mpolinowski/instar-mqtt-websocket-client/blob/master/config.js) already sets up a couple of buttons that you can try to see if you are able to reach and control your camera. Click to activate an privacy area and see it show up in your camera's live video:
 
 
-![Websocket-based MQTT Client INSTAR MQTT Camera](./img/INSTAR_MQTTv5_Websocket_Client_04.webp)
+![Websocket-based MQTT Client INSTAR MQTT Camera](https://github.com/mpolinowski/instar-mqtt-websocket-client/raw/master/img/INSTAR_MQTTv5_Websocket_Client_04.webp)
 
 
-Feel free to replace any of the pre-configured commands with commands from the [MQTTv5 API](https://wiki.instar.com/en/Advanced_User/INSTAR_MQTT_Broker/MQTTv5_API/). Use the `Befehl senden` area to quickly try out any command before creating a button for it in the `./index.html` file:
+Feel free to replace any of the pre-configured commands with commands from the [MQTTv5 API](https://wiki.instar.com/en/Advanced_User/INSTAR_MQTT_Broker/MQTTv5_API/). Use the `Befehl senden` area to quickly try out any command before creating a button for it in the [index.html](https://github.com/mpolinowski/instar-mqtt-websocket-client/blob/master/index.html) file:
 
 
-![Websocket-based MQTT Client INSTAR MQTT Camera](./img/INSTAR_MQTTv5_Websocket_Client_05.webp)
+![Websocket-based MQTT Client INSTAR MQTT Camera](https://github.com/mpolinowski/instar-mqtt-websocket-client/raw/master/img/INSTAR_MQTTv5_Websocket_Client_05.webp)
 
 
 You can also add a MQTT Topic wildcard subscription to listen in to all commands that your camera is receiving/sending:
 
 
-![Websocket-based MQTT Client INSTAR MQTT Camera](./img/INSTAR_MQTTv5_Websocket_Client_06.webp)
+![Websocket-based MQTT Client INSTAR MQTT Camera](https://github.com/mpolinowski/instar-mqtt-websocket-client/raw/master/img/INSTAR_MQTTv5_Websocket_Client_06.webp)
 
 
 # License
